@@ -1,0 +1,146 @@
+.container{
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 20px;
+    background: linear-gradient(to bottom, #56CCF2, #2F80ED);
+}
+
+.backgroundImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+body{
+    background-image: url(/image/pngtree-hand-drawn-blue-sky-white-clouds-weather-forecast-illustration-background-image_270878.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    min-height: 100vh
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+}
+
+.search{
+    padding: 5px;
+    border-width: 1px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-right: none;
+}
+
+.searchbutton{
+    padding: 5px;
+     border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-width: 1px;
+    background-color: white;
+    width: 50px;
+    cursor: pointer;
+
+}
+
+.searchimage{
+    height: 20px;
+}
+
+.menuSearch{
+    display: flex;
+}
+
+.weatherImage{
+    height: 100px;
+}
+
+.p2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.temperatureDisplay{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+
+.p3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.bottomDisplay{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.humidity{
+    background-color: transparent;
+    border-style: solid;
+    padding: 10px;
+    border-width: 1px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.p4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 17px;
+}
+
+.wind{
+    background-color: transparent;
+    border-style: solid;
+    padding: 10px;
+    border-width: 1px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.imagePic{
+    height: 30px;
+}
+
+.imagehumidity{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.weatherDisplay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day{
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.clearButton{
+    margin-left: 10px;
+    padding: 5px;
+}
