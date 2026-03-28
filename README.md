@@ -17,3 +17,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 
 ! Install dayjs , axios & register Open Weather to get API key 
+
+https://weather-api-pied-psi.vercel.app/
